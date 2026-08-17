@@ -1,0 +1,84 @@
+body{
+    background-color: var(--content-background-color);
+    color: var(--text-color);
+    font-family: var(--default-font);
+}
+a{
+    color: var(--link-color);
+}
+h1{
+    text-align: center;
+}
+table{
+    background-color: var(--table-background-color);
+}
+thead{
+    color: var(--table-header-text-color);
+    background-color: var(--table-header-background-color);
+    text-align: center;
+}
+thead td{
+    font-size: 18px;
+    font-weight: bold;
+}
+tr:nth-child(even){
+    background-color: var(--table-background-color-alt);
+}
+td{
+    padding: 10px 2px 10px 2px;
+}
+div.AnimateGuardian{
+    max-width: 1500px;
+    width: fit-content;
+    margin: auto;
+    font-size: 15px;
+}
+.hidden {
+  display: none;
+}
+table.AnimateGuardian{
+    width: 100%;
+}
+table.AnimateGuardian thead{
+    text-align: left;
+}
+table.AnimateGuardian td{
+    font-family: var(--stylized-smallcaps-font);
+    width: calc(100% / 7);
+}
+button.toggleDiv{
+    background-color: var(--content-background-color);
+    color: var(--text-color);
+    font-family: var(--default-font);
+}
+
+:root{
+color-scheme: dark;
+  --default-font: Verdana,Arial,Helvetica,sans-serif;
+  --stylized-font: Fontin,Verdana,Arial,Helvetica,sans-serif;
+  --stylized-smallcaps-font: FontinSmallCaps,Verdana,Arial,Helvetica,sans-serif;
+  --monospace-font: "Cascadia Code","Source Code Pro",Menlo,Consolas,"DejaVu Sans Mono","Liberation Mono",monospace;
+  --content-background-color: #0f0f0f;
+  --text-color: #a38d6d;
+  --bright-text-color: #dfcf99;
+  --subdued-text-color: #5e4f45;
+  --bright-text-filter: invert(94%) sepia(12%) saturate(1025%) hue-rotate(346deg) brightness(93%) contrast(88%);
+  --link-color: #f2c462;
+  --link-active-color: #f2dcae;
+  --red-link-color: #f25749;
+  --red-link-active-color: #f2b4ae;
+  --table-border-color: #1a1812;
+  --table-text-color: var(--text-color);
+  --table-background-color: #26231b;
+  --table-background-color-alt: #211F18;
+  --table-header-text-color: var(--text-color);
+  --table-header-background-color: #332f24;
+  --horizontal-rule-color: #5e4f45;
+  --image-box-border-color: #75511d;
+  --image-box-background-color: #130f0a;
+  --image-box-inner-border-color: #503a1e;
+  --image-box-inner-background-color: #000;
+  --outer-text-color: #c6bbb3;
+  --outer-link-color: #e8e6e3;
+  --outer-link-text-shadow: 0 0 0.5rem rgba(0,0,0,1),-1px -1px 0 rgba(0,0,0,0.25),1px -1px 0 rgba(0,0,0,0.25),-1px 1px 0 rgba(0,0,0,0.25),1px 1px 0 rgba(0,0,0,0.25);
+}
